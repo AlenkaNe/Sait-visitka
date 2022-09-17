@@ -1,0 +1,37 @@
+/*@font-face {
+    src: url(`RobotoSlab-Light.ttf`);
+    font-family: "RobotoSlab Light";
+}*/
+
+body {
+    background-color: #e2f5e9;
+    font-family: "Roboto Slab";
+    
+}
+.head {
+    background-color: #cccdc8;
+    margin: 10px 25px;
+    font-size: inherit;
+    font-size: 30px;
+    font-family: "Poppins";
+    
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img {
+    padding: 3px;
+    border: 2px solid grey;
+    
+}
+.block {
+    margin: 10px 25px;
+    padding: 5px;
+    border: 2px solid rgb(182, 175, 175);
+}
+
+.material-icons {
+    color:black;
+}
